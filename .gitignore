@@ -1,0 +1,7 @@
+.env
+data/queue.json
+data/decisions.json
+data/decisions.md
+__pycache__/
+*.pyc
+.venv/

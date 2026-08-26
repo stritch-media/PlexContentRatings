@@ -1,0 +1,438 @@
+{
+  "tmdb:599876": {
+    "title": "Caught in the Net",
+    "year": 2020,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Tubi lists TV-MA (documentary sting operation depicting adult men soliciting minors online, explicit predatory dialogue).",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "110547"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2576802"
+      }
+    ]
+  },
+  "tmdb:1547640": {
+    "title": "Charli XCX: Brat Girl",
+    "year": 2025,
+    "type": "movie",
+    "rating": "TV-PG",
+    "source": "streamer",
+    "confidence": "medium",
+    "rationale": "Streamer: Apple TV lists Rated TV-PG (music-career documentary with some language/sexual references); Prime Video's coarser 16+ advisory flags similar content but Apple TV's explicit TV rating is used.",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "111098"
+      }
+    ]
+  },
+  "tmdb:174319": {
+    "title": "Elaine Stritch: Shoot Me",
+    "year": 2013,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Apple TV lists TV-MA (frank/foul language, alcohol use, sexual content per Amazon's content advisory for the same film).",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "110938"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2590522"
+      }
+    ]
+  },
+  "tmdb:31417": {
+    "title": "Eyes Without a Face",
+    "year": 1960,
+    "type": "movie",
+    "rating": "TV-14",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Tubi lists TV-14 (disturbing surgical/body-horror imagery, unsettling tone, mild language); no graphic gore or sexual content.",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "4K Movies",
+        "ratingKey": "111091"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "4K Movies",
+        "ratingKey": "2599670"
+      }
+    ]
+  },
+  "tmdb:307248": {
+    "title": "Have You Seen Andy?",
+    "year": 2007,
+    "type": "movie",
+    "rating": "TV-14",
+    "source": "streamer",
+    "confidence": "medium",
+    "rationale": "Streamer: HBO Max's US offer metadata (via JustWatch) lists TV-14; true-crime documentary on a child's abduction/suspected murder with disturbing discussion of child sexual abuse evidence fits TV-14 better than Apple TV's conflicting PG badge.",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "110545"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2574553"
+      }
+    ]
+  },
+  "tmdb:1675032": {
+    "title": "Josh Johnson: Symphony",
+    "year": 2026,
+    "type": "movie",
+    "rating": "TV-14",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Hulu lists TV14 (standup special with adult language/themes); HBO Max shows a matching 13+ advisory.",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "4K Movies",
+        "ratingKey": "111290"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2606472"
+      }
+    ]
+  },
+  "tmdb:16763": {
+    "title": "Joy Ride 2: Dead Ahead",
+    "year": 2008,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Netflix US lists TV-MA (confirmed in page metadata); matches extensive gore (decapitation, dismemberment, torture), a forced-stripping/nudity scene, and severe language per IMDb Parents Guide.",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "110613"
+      }
+    ]
+  },
+  "tmdb:876911": {
+    "title": "Parallel",
+    "year": 2024,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Paramount+ and Prime Video both list TV-MA; consistent with the intense multiverse-horror content suggested by Canada's R and UK's 15 foreign ratings.",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "111421"
+      }
+    ]
+  },
+  "tmdb:7913": {
+    "title": "Rang De Basanti",
+    "year": 2006,
+    "type": "movie",
+    "rating": "TV-14",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Netflix US carried this title with a TV-14 certificate (2022-2025) per Netflix metadata; consistent with its politically charged violence (protest beatings, an assassination, a bloody police standoff) without extreme content.",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "3024"
+      }
+    ]
+  },
+  "tmdb:242224": {
+    "title": "The Babadook",
+    "year": 2014,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Netflix US (historical certificate) and Tubi both list TV-MA; matches extensive violence/scariness (strangulation, a dog killed, disturbing nightmare imagery) and strong language per Common Sense Media.",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2099222"
+      }
+    ]
+  },
+  "tmdb:887": {
+    "title": "The Best Years of Our Lives",
+    "year": 1946,
+    "type": "movie",
+    "rating": "TV-PG",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Tubi lists TV-PG (post-WWII drama, mild thematic material, no offensive content by modern standards).",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "110963"
+      }
+    ]
+  },
+  "tmdb:1620814": {
+    "title": "The Darkest Web",
+    "year": 2026,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Apple TV lists TV-MA (documentary on undercover investigators tracking online child predators; disturbing subject matter).",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "110519"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2574550"
+      }
+    ]
+  },
+  "tmdb:1465790": {
+    "title": "The Last Guest of the Holloway Motel",
+    "year": 2026,
+    "type": "movie",
+    "rating": "TV-14",
+    "source": "streamer",
+    "confidence": "medium",
+    "rationale": "Streamer: Prime Video US lists TV-14 with advisories for violence, substance/alcohol use, foul language, and sexual content; documentary also includes a staged nudity scene per reviews, though other US listings (Apple TV, Plex, JustWatch, RT) show no rating at all.",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "111246"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2606460"
+      }
+    ]
+  },
+  "tmdb:1400379": {
+    "title": "The Librarians",
+    "year": 2025,
+    "type": "movie",
+    "rating": "TV-14",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: PBS Independent Lens lists TV-14, independently confirmed on both pbs.org and pbswisconsin.org; content covers harassment and threats of physical harm against librarians amid book-banning fights.",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "110414"
+      }
+    ]
+  },
+  "tmdb:204944": {
+    "title": "Ten Pound Poms",
+    "year": 2023,
+    "type": "show",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Amazon Prime Video US lists TV-MA directly (violence, foul language, sexual content); also streams on BritBox US.",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "TV Shows",
+        "ratingKey": "111322"
+      }
+    ]
+  },
+  "tmdb:1042820": {
+    "title": "Behind the Rage: America's Domestic Violence",
+    "year": 2022,
+    "type": "movie",
+    "rating": "PG-13",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated PG-13: ITV Exposure documentary with survivor/perpetrator interviews, graphic verbal descriptions of domestic abuse and strong language, but no depicted on-screen violence or nudity; no US streamer rating found (UK-only ITV/Apple TV listing).",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "110897"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2588251"
+      }
+    ]
+  },
+  "tmdb:1644912": {
+    "title": "Jimmy O. Yang: Finally Home",
+    "year": 2026,
+    "type": "movie",
+    "rating": "R",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated R: unrated US theatrical release; Prime Video US 16+ advisory for foul language and Singapore NC16 indicate profanity-heavy stand-up, which is R under MPAA rules (multiple f-bombs); no US streamer TV rating found.",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "111508"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2615418"
+      }
+    ]
+  },
+  "tmdb:899579": {
+    "title": "There's Something Wrong with the Children",
+    "year": 2023,
+    "type": "movie",
+    "rating": "R",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated R: Common Sense Media rates violence, language (f/s-words, including a child cursing), and drinking/weed use as 'a lot' with some sexual dialogue; no genuine US rating exists (Apple TV, Plex, Moviefone, RT all show unrated), and AU MA15+/GB 15 foreign ratings support an adult-skewing rating.",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Kyle's Plex Server",
+        "library": "4K Movies",
+        "ratingKey": "2572241"
+      }
+    ]
+  },
+  "tmdb:255355": {
+    "title": "Amandaland",
+    "year": 2025,
+    "type": "show",
+    "rating": "TV-MA",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated TV-MA: Prime Video US shows only a 16+ advisory (foul language, sexual content, substance use) — an age tier, not a TV rating; BBC/BBFC 15 sitcom with frequent strong language lands TV-MA under the guidelines.",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "TV Shows",
+        "ratingKey": "111210"
+      }
+    ]
+  },
+  "tmdb:220665": {
+    "title": "Guy Montgomery's Guy Mont Spelling Bee (NZ)",
+    "year": 2023,
+    "type": "show",
+    "rating": "TV-14",
+    "source": "estimated",
+    "confidence": "low",
+    "rationale": "Estimated TV-14 (low confidence): not carried by any US streamer (confirmed via JustWatch); adult stand-up comedians riffing with typical panel-show innuendo/mild language, NZ PG rating is a soft hint toward the low end.",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "TV Shows",
+        "ratingKey": "110632"
+      }
+    ]
+  },
+  "tmdb:228527": {
+    "title": "One Night (2023)",
+    "year": 2023,
+    "type": "show",
+    "rating": "TV-MA",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated TV-MA: no current US streamer availability; official AU MA15+ rating cites strong coarse language, sexual violence and self-harm depicted in this trauma-driven drama about a decades-old sexual assault.",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "TV Shows",
+        "ratingKey": "111342"
+      }
+    ]
+  },
+  "tmdb:259690": {
+    "title": "Sword And Scale",
+    "year": 2024,
+    "type": "show",
+    "rating": "TV-MA",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated TV-MA: independent true-crime series (own app, no major US streamer/TV rating) with graphic descriptions of murder, abduction and sexual assault plus explicit listener-discretion warnings, on par with Netflix's TV-MA true-crime docs.",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "4K TV Shows",
+        "ratingKey": "109796"
+      }
+    ]
+  },
+  "tmdb:202113": {
+    "title": "The Twelve (AU)",
+    "year": 2022,
+    "type": "show",
+    "rating": "TV-MA",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated TV-MA: no US streamer carries it (confirmed via JustWatch); adult courtroom/crime drama on Foxtel's prestige Showcase channel centered on a murder trial, GB-15 rating and Amazon's international 18+ listing both point to mature content.",
+    "decided": "2026-08-25",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "TV Shows",
+        "ratingKey": "111330"
+      }
+    ]
+  }
+}
