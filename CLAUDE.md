@@ -72,6 +72,9 @@ The skill at `.claude/skills/check-ratings/SKILL.md` is the entry point. Steps:
    written to Plex before approval.
 6. `python scripts/apply.py` writes and **locks** `contentRating` at every
    location, then merges the decisions into `data/ratings-cache.json`.
+7. Commit `data/ratings-cache.json` (+ `calibration.md`) and push to the
+   private GitHub repo (`stritch-media/PlexContentRatings`) so the decision
+   history is backed up.
 
 The cache is permanent memory across runs: a title decided once is never
 re-researched. If the user overrides a rating, update the cache entry too.

@@ -91,3 +91,19 @@ Writes and locks `contentRating` at every location, merges into
 `data/ratings-cache.json`, and prints a per-location success/failure list.
 Afterwards, re-run `gather.py` and confirm the applied titles have left the
 smart collections; report any stragglers.
+
+## 7. Commit
+
+After a successful apply, commit the updated decision history and push:
+
+```
+git add data/ratings-cache.json data/calibration.md
+git commit -m "check-ratings: <N> titles, <M> locations (<date>)"
+git push
+```
+
+Only the cache and calibration log change in a normal run; if the skill,
+guidelines, or scripts were also edited during the run, include them. Never
+stage `.env`, `data/queue.json`, or `data/decisions.*` (they're gitignored,
+but don't `git add -A` blindly). If the push fails (offline, auth), report it
+and leave the commit local — do not retry in a loop.
