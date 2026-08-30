@@ -22,3 +22,21 @@ failure mode — treating Amazon's "16+" age tier as a TV rating, and
 under-rating profanity-heavy stand-up. Streamer-lookup work was excellent
 (15 of 23 titles got a real US rating). **Decision: keep Sonnet as default.**
 Added guidance to the skill prompt about Amazon age tiers.
+
+## 2026-08-30 — second run, Sonnet 5 research subagents (8 titles, 2 agents)
+
+Orchestrator (Fable 5) re-checked the 1 `streamer` claim and the 2 weakest
+`estimated` entries. IMDb Parents Guide pages returned 403 to the orchestrator
+(agents had fetched them successfully), so checks used Tubi / Prime / Shudder.
+
+| Title | Sonnet said | Check result | Verdict |
+|---|---|---|---|
+| Grave Encounters | TV-MA, streamer (Tubi) | Tubi page shows literal "TV-MA" | Agree, verified |
+| Hellbender | PG-13, estimated | Prime 16+ with "violence, foul language"; Sonnet's own note said IMDb profanity "Moderate" (multiple f-words = R per guidelines) | **Corrected** -> R |
+| One Cut of the Dead | R, estimated | Prime 16+ "violence, alcohol use"; comedic but persistent dismemberment gore; BBFC 15 / FSK 16 | Agree (PG-13 alt noted) |
+| When Evil Lurks, Act of Killing, No Bears, Philadelphia Story, Shop Around the Corner | estimated | Rationale + foreign hints consistent with guidelines | Agree, not re-fetched |
+
+**Result:** 7/8 agreed; 1 corrected. The miss is the same under-rating-profanity
+pattern seen on 2026-08-25 (Prime "16+ foul language" should push to R).
+Correct age-tier handling this time — no tier was mislabelled as a rating.
+**Decision: keep Sonnet as default.**

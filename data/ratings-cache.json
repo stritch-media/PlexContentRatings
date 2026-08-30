@@ -434,5 +434,141 @@
         "ratingKey": "111330"
       }
     ]
+  },
+  "tmdb:744857": {
+    "title": "When Evil Lurks",
+    "year": 2023,
+    "type": "movie",
+    "rating": "R",
+    "source": "estimated",
+    "confidence": "high",
+    "rationale": "Estimated R: severe gore (mutilations, bludgeoning, axe killing), many f-words, male nudity; Apple TV shows only a 16+ age tier; BBFC 15, FSK 18, ACB MA15+, KR 19 all agree.",
+    "decided": "2026-08-30",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "4K Movies",
+        "ratingKey": "111918"
+      }
+    ]
+  },
+  "tmdb:123678": {
+    "title": "The Act of Killing",
+    "year": 2012,
+    "type": "movie",
+    "rating": "PG-13",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated PG-13: documentary; disturbing verbal/reenacted descriptions of genocide, no graphic on-screen violence, nudity, or strong language; same director's companion film The Look of Silence was MPAA PG-13; foreign boards cluster 15-16. R noted as the alternative.",
+    "decided": "2026-08-30",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "111654"
+      }
+    ]
+  },
+  "tmdb:50698": {
+    "title": "Grave Encounters",
+    "year": 2011,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Tubi US listing shows TV-MA (verified by orchestrator).",
+    "decided": "2026-08-30",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "111687"
+      }
+    ]
+  },
+  "tmdb:848886": {
+    "title": "Hellbender",
+    "year": 2021,
+    "type": "movie",
+    "rating": "R",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated R (corrected from Sonnet's PG-13): Prime Video 16+ with 'violence, foul language' advisories; ritual blood-letting, hanging/shooting with blood, moderate profanity per IMDb; no US TV/MPAA rating found (Apple TV Unrated). FSK 16.",
+    "decided": "2026-08-30",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "111933"
+      }
+    ]
+  },
+  "tmdb:974521": {
+    "title": "No Bears",
+    "year": 2022,
+    "type": "movie",
+    "rating": "PG-13",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated PG-13: tense dissident drama; two off-screen deaths (border shooting, implied drowning suicide) discussed not shown; no sex or strong language; BBFC 12A, KR 12, NL 14.",
+    "decided": "2026-08-30",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "111934"
+      }
+    ]
+  },
+  "tmdb:513434": {
+    "title": "One Cut of the Dead",
+    "year": 2017,
+    "type": "movie",
+    "rating": "R",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated R: persistent (comedic, exaggerated) zombie gore incl. dismemberment, brief nudity, some language; Prime 16+ 'violence, alcohol use', Apple TV Unrated; BBFC 15, FSK 16, KR 15. PG-13 is the alternative given the tongue-in-cheek tone.",
+    "decided": "2026-08-30",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "111707"
+      }
+    ]
+  },
+  "tmdb:981": {
+    "title": "The Philadelphia Story",
+    "year": 1940,
+    "type": "movie",
+    "rating": "PG",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated PG: 1940 comedy of manners; pervasive drunkenness played for laughs, one shove, adultery innuendo; no US streamer rating found (Apple TV Unrated); BBFC U, IE PG.",
+    "decided": "2026-08-30",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "111812"
+      }
+    ]
+  },
+  "tmdb:20334": {
+    "title": "The Shop Around the Corner",
+    "year": 1940,
+    "type": "movie",
+    "rating": "PG",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated PG: gentle 1940 romantic comedy, but an off-screen attempted suicide tied to an affair gives it thematic weight beyond G; Apple TV Unrated; BBFC PG.",
+    "decided": "2026-08-30",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "111813"
+      }
+    ]
   }
 }
