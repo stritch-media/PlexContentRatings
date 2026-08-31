@@ -493,13 +493,13 @@
     "rating": "R",
     "source": "estimated",
     "confidence": "medium",
-    "rationale": "Estimated R (corrected from Sonnet's PG-13): Prime Video 16+ with 'violence, foul language' advisories; ritual blood-letting, hanging/shooting with blood, moderate profanity per IMDb; no US TV/MPAA rating found (Apple TV Unrated). FSK 16.",
-    "decided": "2026-08-30",
+    "rationale": "Cached decision from 2026-08-30 (item re-added under a new ratingKey): Prime Video 16+ with violence/foul-language advisories; ritual blood-letting, hanging/shooting with blood; FSK 16.",
+    "decided": "2026-08-31",
     "locations_applied": [
       {
         "server": "Appbox",
         "library": "Movies",
-        "ratingKey": "111933"
+        "ratingKey": "112078"
       }
     ]
   },
@@ -568,6 +568,62 @@
         "server": "Appbox",
         "library": "Movies",
         "ratingKey": "111813"
+      }
+    ]
+  },
+  "tmdb:1510055": {
+    "title": "The Furious",
+    "year": 2026,
+    "type": "movie",
+    "rating": "PG-13",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated PG-13: Malaysian martial-arts actioner, non-stop hand-to-hand fights but reviews note no gore, language, or sexual content; Malaysia P13 / Singapore PG13 agree.",
+    "decided": "2026-08-31",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "4K Movies",
+        "ratingKey": "112058"
+      }
+    ]
+  },
+  "tmdb:1484620": {
+    "title": "Everybody to Kenmure Street",
+    "year": 2026,
+    "type": "movie",
+    "rating": "PG-13",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated PG-13: documentary on the 2021 Glasgow anti-deportation protest; BBFC 12A cites infrequent strong language and police/protester confrontation, no graphic content.",
+    "decided": "2026-08-31",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "112059"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2629363"
+      }
+    ]
+  },
+  "tmdb:401898": {
+    "title": "Thelma",
+    "year": 2017,
+    "type": "movie",
+    "rating": "R",
+    "source": "estimated",
+    "confidence": "high",
+    "rationale": "Estimated R: Joachim Trier's Norwegian supernatural thriller; female frontal nudity and a same-sex intimacy scene, seizures, near-drowning, gunplay; no US MPAA/streamer rating (Prime '13+' tier is not a rating). Nordic 15/16 boards agree.",
+    "decided": "2026-08-31",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "112063"
       }
     ]
   }
