@@ -626,5 +626,22 @@
         "ratingKey": "112063"
       }
     ]
+  },
+  "tmdb:251750": {
+    "title": "Bergerac (2025)",
+    "year": 2025,
+    "type": "show",
+    "rating": "TV-14",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Prime Video US lists TV-14 on the season and every episode of Bergerac (2025) Season 1.",
+    "decided": "2026-09-04",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "TV Shows",
+        "ratingKey": "112188"
+      }
+    ]
   }
 }
