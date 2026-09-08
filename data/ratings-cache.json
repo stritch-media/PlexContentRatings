@@ -643,5 +643,93 @@
         "ratingKey": "112188"
       }
     ]
+  },
+  "tmdb:81705": {
+    "title": "All or Nothing: Manchester City",
+    "year": 2018,
+    "type": "show",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Prime Video US lists TV-MA (alcohol use, foul language).",
+    "decided": "2026-09-08",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "4K TV Shows",
+        "ratingKey": "112335"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "4K TV Shows",
+        "ratingKey": "2645261"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "TV Shows",
+        "ratingKey": "2645264"
+      }
+    ]
+  },
+  "tmdb:301626": {
+    "title": "A Tale of Two Cities (2026)",
+    "year": 2026,
+    "type": "show",
+    "rating": "TV-MA",
+    "source": "official-tv",
+    "confidence": "high",
+    "rationale": "Official: TMDB US content rating TV-MA for the MGM+ French Revolution drama.",
+    "decided": "2026-09-08",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "TV Shows",
+        "ratingKey": "112281"
+      }
+    ]
+  },
+  "tmdb:330489": {
+    "title": "Decades in Sports",
+    "year": 2026,
+    "type": "show",
+    "rating": "TV-14",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Prime Video US lists TV-14 (violence, substance use, smoking, foul language); CNN archival sports docuseries.",
+    "decided": "2026-09-08",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "TV Shows",
+        "ratingKey": "112326"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "TV Shows",
+        "ratingKey": "2642979"
+      }
+    ]
+  },
+  "tmdb:331946": {
+    "title": "A Beautiful Obsession",
+    "year": 2026,
+    "type": "show",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Prime Video US lists TV-MA (foul language, smoking); Man City fly-on-the-wall doc.",
+    "decided": "2026-09-08",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "TV Shows",
+        "ratingKey": "112407"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "TV Shows",
+        "ratingKey": "2645316"
+      }
+    ]
   }
 }

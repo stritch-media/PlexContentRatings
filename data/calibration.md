@@ -40,3 +40,17 @@ Orchestrator (Fable 5) re-checked the 1 `streamer` claim and the 2 weakest
 pattern seen on 2026-08-25 (Prime "16+ foul language" should push to R).
 Correct age-tier handling this time — no tier was mislabelled as a rating.
 **Decision: keep Sonnet as default.**
+
+## 2026-09-08 — Sonnet 5 research subagent (3 titles, 1 agent)
+
+No `estimated` entries this run (2 official via TMDB, 3 `streamer`). Orchestrator
+(Fable 5) re-fetched all 3 cited Prime Video US pages.
+
+| Title | Sonnet said | Check result | Verdict |
+|---|---|---|---|
+| All or Nothing: Manchester City | TV-MA, streamer (Prime) | Page shows literal "TV-MA", 16+ tier, "alcohol use, foul language" | Agree, verified |
+| Decades in Sports | TV-14, streamer (Prime) | Page shows literal "TV-14", 13+ tier on episodes | Agree, verified |
+| A Beautiful Obsession | TV-MA, streamer (Prime) | Page shows literal "TV-MA", 16+ tier, "foul language" | Agree, verified |
+
+**Result:** 3/3 verified. Age tiers correctly treated as hints, not ratings.
+**Decision: keep Sonnet as default.**
