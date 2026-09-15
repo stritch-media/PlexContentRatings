@@ -54,3 +54,18 @@ No `estimated` entries this run (2 official via TMDB, 3 `streamer`). Orchestrato
 
 **Result:** 3/3 verified. Age tiers correctly treated as hints, not ratings.
 **Decision: keep Sonnet as default.**
+
+## 2026-09-14 — Sonnet 5 research subagent (2 titles, 1 agent)
+
+Both titles came back `estimated` (no MPAA, no literal streamer rating).
+Orchestrator (Fable 5) re-checked both by fetching Apple TV US, MUBI, and
+searching Shudder/AMC+ listings (Shudder page renders client-side; empty HTML).
+
+| Title | Sonnet said | Check result | Verdict |
+|---|---|---|---|
+| Rosebush Pruning | R, estimated (medium) | Apple TV US: Unrated. MUBI: generic "MATURE" badge only. BBFC 18 (sexual violence, strong sex, nudity). R is the right US call; NC-17 unlikely for an arthouse MUBI release | Agree, verified |
+| Tigers Are Not Afraid | R, estimated (high) | Apple TV US: "Unrated", 15+ tier. Prime 16+. Common Sense: multiple f-words, child-involved violence/gore | Agree, verified |
+
+**Result:** 2/2 agreed. Age tiers (Apple 15+, Prime 16+) and MUBI's "MATURE"
+badge were all correctly treated as hints, not ratings. **Decision: keep
+Sonnet as default.**

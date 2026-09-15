@@ -731,5 +731,39 @@
         "ratingKey": "2645316"
       }
     ]
+  },
+  "tmdb:1130948": {
+    "title": "Rosebush Pruning",
+    "year": 2026,
+    "type": "movie",
+    "rating": "R",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated R: onscreen sexual violence, strong sex with nudity, incest themes, stabbing/bloody aftermath per reviews; BBFC 18 (sexual violence, strong sex, nudity), FSK 16. No MPAA submission; Apple TV/JustWatch list Unrated, MUBI shows only a generic MATURE badge.",
+    "decided": "2026-09-14",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "112574"
+      }
+    ]
+  },
+  "tmdb:349067": {
+    "title": "Tigers Are Not Afraid",
+    "year": 2017,
+    "type": "movie",
+    "rating": "R",
+    "source": "estimated",
+    "confidence": "high",
+    "rationale": "Estimated R: pervasive strong language (multiple f-words), sustained cartel violence and gore involving children, threatened rape of a child per Common Sense Media; Apple TV lists Unrated / 15+, Prime 16+ (age tiers, not ratings); MX B-15, IE 15.",
+    "decided": "2026-09-14",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "112430"
+      }
+    ]
   }
 }
