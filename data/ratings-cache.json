@@ -765,5 +765,61 @@
         "ratingKey": "112430"
       }
     ]
+  },
+  "tmdb:521935": {
+    "title": "Cam",
+    "year": 2018,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "official-tv",
+    "confidence": "high",
+    "rationale": "Official: Netflix original, IMDb/OMDb Rated TV-MA (sexual content, nudity, language); GB 15, KR 19, SG R21 agree.",
+    "decided": "2026-09-17",
+    "locations_applied": [
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2099619"
+      }
+    ]
+  },
+  "tmdb:1493859": {
+    "title": "Pizza Movie",
+    "year": 2026,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "official-tv",
+    "confidence": "high",
+    "rationale": "Official: Hulu/Disney+ original lists TV-MA (drug use, language); verified on Hulu press site. BR 18, KR 19, NZ R16 agree.",
+    "decided": "2026-09-17",
+    "locations_applied": [
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2446191"
+      }
+    ]
+  },
+  "tmdb:28963": {
+    "title": "The Thief of Bagdad",
+    "year": 1924,
+    "type": "movie",
+    "rating": "TV-PG",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Tubi lists literal TV-PG for the 1924 Fairbanks/Walsh silent film (fantasy sword peril, mild sensuality); pre-1968 title never MPAA-rated, CA PG / NL 6 agree.",
+    "decided": "2026-09-17",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "112870"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2665772"
+      }
+    ]
   }
 }

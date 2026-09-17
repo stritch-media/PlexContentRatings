@@ -69,3 +69,21 @@ searching Shudder/AMC+ listings (Shudder page renders client-side; empty HTML).
 **Result:** 2/2 agreed. Age tiers (Apple 15+, Prime 16+) and MUBI's "MATURE"
 badge were all correctly treated as hints, not ratings. **Decision: keep
 Sonnet as default.**
+
+## 2026-09-17 — Sonnet 5 research subagent (1 title, 1 agent)
+
+Only 1 title needed research (2 of 3 had an official US rating from OMDb).
+No `estimated` entries this run. Orchestrator (Fable 5) re-fetched the cited
+Tubi page and independently verified the Hulu rating.
+
+| Title | Sonnet said | Check result | Verdict |
+|---|---|---|---|
+| The Thief of Bagdad (1924) | TV-PG, streamer (Tubi) | Tubi page shows literal "TV-PG"; year 1924, dir. Raoul Walsh, starring Douglas Fairbanks — confirmed NOT the 1940 Technicolor remake | Agree, verified |
+| Pizza Movie (2026) | n/a — official via OMDb | Hulu press listing confirms TV-MA | Agree, verified |
+
+**Result:** 1/1 agreed. The identified risk on this title was confusing the
+1924 silent with the 1940 remake; the agent checked year/director/star on each
+Tubi listing before citing it, which is the right habit for remade titles.
+Correctly applied precedence rule 2 (real streamer TV rating beats an MPAA
+estimate) rather than estimating PG for a pre-1968 film.
+**Decision: keep Sonnet as default.**
