@@ -87,3 +87,16 @@ Tubi listing before citing it, which is the right habit for remade titles.
 Correctly applied precedence rule 2 (real streamer TV rating beats an MPAA
 estimate) rather than estimating PG for a pre-1968 film.
 **Decision: keep Sonnet as default.**
+
+## 2026-09-21 — Sonnet 5 research subagent (1 title, 1 agent)
+
+No official US rating (TMDB US "NR", OMDb "Not Rated"). No `estimated`
+entries. Orchestrator (Opus 5) re-fetched the cited Prime Video US page directly.
+
+| Title | Sonnet said | Check result | Verdict |
+|---|---|---|---|
+| Valhalla Rising (2009) | TV-MA, streamer (Prime), medium | Prime Video US page shows literal "TV-MA", "nudity, violence, foul language"; confirmed Refn / Mads Mikkelsen film. Agent's medium confidence was only due to needing a text proxy to read the page; raised to high after direct fetch | Agree, verified |
+
+**Result:** 1/1 agreed. Correctly checked for a Blu-ray MPAA rating before
+falling through to streamer, and distinguished the literal TV-MA from Prime's
+age tiers. **Decision: keep Sonnet as default.**

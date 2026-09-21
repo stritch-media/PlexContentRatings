@@ -821,5 +821,27 @@
         "ratingKey": "2665772"
       }
     ]
+  },
+  "tmdb:37861": {
+    "title": "Valhalla Rising",
+    "year": 2009,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Prime Video US lists TV-MA (nudity, violence, foul language); no MPAA rating exists (US release was NR).",
+    "decided": "2026-09-21",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "113029"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2674888"
+      }
+    ]
   }
 }
