@@ -843,5 +843,264 @@
         "ratingKey": "2674888"
       }
     ]
+  },
+  "tmdb:32688": {
+    "title": "A Dog's Life",
+    "year": 1962,
+    "type": "movie",
+    "rating": "R",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Tubi lists Mondo Cane (1962) as R (real animal slaughter, on-screen death/remains, non-sexual nudity). 'Approved' is Hays-era, unusable.",
+    "decided": "2026-09-27",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "113234"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2686125"
+      }
+    ]
+  },
+  "tmdb:3073": {
+    "title": "Abbott and Costello Meet Frankenstein",
+    "year": 1948,
+    "type": "movie",
+    "rating": "TV-PG",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Tubi lists TV-PG (mild comedic monster scares; no language/sex). OMDb 'Approved' is Hays-era, unusable.",
+    "decided": "2026-09-27",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "4K Movies",
+        "ratingKey": "113198"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "4K Movies",
+        "ratingKey": "2686132"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2686135"
+      }
+    ]
+  },
+  "tmdb:56811": {
+    "title": "Cropsey",
+    "year": 2009,
+    "type": "movie",
+    "rating": "PG-13",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Tubi US listing shows PG-13 (disturbing true-crime subject, archival institutional nudity, some language); never MPA-submitted.",
+    "decided": "2026-09-27",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "113300"
+      }
+    ]
+  },
+  "tmdb:1476740": {
+    "title": "Influencers",
+    "year": 2025,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: AMC+/Shudder lists TV-MA (frequent f-/c-words, sex scenes with nudity, graphic stabbing/strangulation gore). DE 18 / KR 19 agree.",
+    "decided": "2026-09-27",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "4K Movies",
+        "ratingKey": "113226"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "4K Movies",
+        "ratingKey": "2686151"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2686152"
+      }
+    ]
+  },
+  "tmdb:787373": {
+    "title": "Monster Preacher",
+    "year": 2021,
+    "type": "movie",
+    "rating": "TV-14",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Apple TV lists TV-14 for this Oxygen true-crime special on Gary Heidnik.",
+    "decided": "2026-09-27",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "113235"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2686162"
+      }
+    ]
+  },
+  "tmdb:321066": {
+    "title": "Scream, Queen! My Nightmare on Elm Street",
+    "year": 2019,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Tubi lists TV-MA for this documentary about Mark Patton and Nightmare on Elm Street 2; Canada R.",
+    "decided": "2026-09-27",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "113238"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2686146"
+      }
+    ]
+  },
+  "tmdb:87012": {
+    "title": "The Great British Bake Off",
+    "year": 2017,
+    "type": "show",
+    "rating": "TV-14",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Netflix lists The Great British Baking Show as TV-14 (mild innuendo); UK/AU/IE PG.",
+    "decided": "2026-09-27",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "TV Shows",
+        "ratingKey": "113125"
+      }
+    ]
+  },
+  "tmdb:1047223": {
+    "title": "The Vourdalak",
+    "year": 2023,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Tubi lists TV-MA (violence, nudity, sexual content) for Adrien Beau's French gothic horror.",
+    "decided": "2026-09-27",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "113367"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2686194"
+      }
+    ]
+  },
+  "tmdb:25237": {
+    "title": "Come and See",
+    "year": 1985,
+    "type": "movie",
+    "rating": "R",
+    "source": "estimated",
+    "confidence": "high",
+    "rationale": "Estimated R: sustained graphic war-atrocity violence (village massacre, burning, execution), deep psychological horror; Criterion/Apple list Unrated; GB 15, DE 16, ES/BR 18.",
+    "decided": "2026-09-27",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "113230"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2686126"
+      }
+    ]
+  },
+  "tmdb:1477712": {
+    "title": "Ice Cream Man",
+    "year": 2026,
+    "type": "movie",
+    "rating": "NC-17",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated NC-17 (R is the alternative): released Unrated on purpose to avoid MPA cuts; built around extreme gore, which critics say 'would get an NC-17'. GB/DE 18, AU R18+. TMDB's 'NC-17' is not a real MPA rating.",
+    "decided": "2026-09-27",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "113586"
+      }
+    ]
+  },
+  "tmdb:934601": {
+    "title": "Jethica",
+    "year": 2023,
+    "type": "movie",
+    "rating": "R",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated R: low-budget stalker horror-comedy with a violent killing and an implied hookup scene; no US rating anywhere; GB 15, BR 16, RO 18.",
+    "decided": "2026-09-27",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "113654"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2688635"
+      }
+    ]
+  },
+  "tmdb:575224": {
+    "title": "The Long Walk",
+    "year": 2019,
+    "type": "movie",
+    "rating": "PG-13",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated PG-13: somber Laotian ghost drama (Mattie Do) with serial-killer subplot, a corpse, mercy-killing themes; no gore, sex, nudity, or strong language per reviews.",
+    "decided": "2026-09-27",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "113229"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2686143"
+      }
+    ]
   }
 }

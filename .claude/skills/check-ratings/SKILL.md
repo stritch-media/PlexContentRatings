@@ -42,6 +42,12 @@ For each title with no valid US rating, in this order:
 1. **US streamer listings** — web search for the title on Netflix, Hulu,
    Prime Video, Max, Peacock, Paramount+, Apple TV+, Disney+, Tubi. A real
    TV-style rating from a streamer wins over any estimate (`streamer`).
+   Always fetch the Tubi page directly: it rates most catalog/indie/old
+   films, and a search result snippet is not enough. For horror, also fetch
+   the AMC+/Shudder page, whose `contentRating` meta tag holds the rating. A
+   literal MPAA letter shown by a streamer (e.g. Tubi "R") also counts as
+   `streamer`. (Calibration 2026-09-27: two literal streamer ratings were
+   missed this way.)
 2. **Content research** — IMDb Parents Guide, Common Sense Media, Kids-In-Mind,
    reviews, synopsis. Foreign board ratings are strong hints, not mappings.
 3. Estimate per `reference/rating-guidelines.md`. Movies → MPAA style, TV →

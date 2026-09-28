@@ -100,3 +100,30 @@ entries. Orchestrator (Opus 5) re-fetched the cited Prime Video US page directly
 **Result:** 1/1 agreed. Correctly checked for a Blu-ray MPAA rating before
 falling through to streamer, and distinguished the literal TV-MA from Prime's
 age tiers. **Decision: keep Sonnet as default.**
+
+## 2026-09-27 — Sonnet 5 research subagents (12 titles, 2 agents)
+
+Lookup found 1 "official" rating (Ice Cream Man, TMDB NC-17), which turned out
+to be bogus. Orchestrator (Opus 5) re-fetched every cited streamer page and
+re-checked all 6 of batch A's estimates against Tubi / AMC+ / Apple.
+
+| Title | Sonnet said | Check result | Verdict |
+|---|---|---|---|
+| Great British Bake Off | TV-14, streamer (Netflix) | Netflix HTML shows TV-14 (maturity value 90) | Agree, verified |
+| Monster Preacher / Scream, Queen! / The Vourdalak | TV-14 / TV-MA / TV-MA, streamer | Apple TV / Tubi / Tubi pages show literal ratings | Agree, verified (3) |
+| Abbott and Costello Meet Frankenstein | PG, estimated | **Tubi lists TV-PG.** The agent said it checked streamers but missed Tubi | **Corrected** → TV-PG, streamer |
+| Influencers (2025) | R, estimated | **AMC+ page meta contentRating = TV-MA** | **Corrected** → TV-MA, streamer |
+| Mondo Cane ("A Dog's Life") | R, estimated | Tubi shows literal R | Same rating, source relabelled → streamer |
+| Cropsey | PG-13, estimated (cited Tubi PG-13) | Tubi shows literal PG-13, which counts as streamer per guidelines | Same rating, source relabelled → streamer |
+| Ice Cream Man (2026) | NC-17, estimated | Agent correctly debunked TMDB's NC-17 (film is deliberately Unrated). No streamer rating found | Agree; flagged R as the alternative for the user |
+| Come and See | R, estimated | Criterion/Apple Unrated; no TV rating found | Agree |
+| Jethica, The Long Walk (2019) | R / PG-13, estimated | Not re-fetched; rationale fits guidelines | Agree, unverified |
+
+**Result:** content judgment was right on every title. Batch B's streamer
+work was perfect. Batch A under-searched streamers: it missed 2 literal
+streamer ratings (Tubi, AMC+) and labelled 2 literal Tubi MPAA letters as
+`estimated`. Only one of those misses changed the actual rating level
+(Influencers R → TV-MA). The fix is prompt guidance, not a model change.
+Added to the skill: always fetch the Tubi and AMC+/Shudder pages directly,
+and treat a literal MPAA letter on a streamer as `streamer`.
+**Decision: keep Sonnet as default.**
