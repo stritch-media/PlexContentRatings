@@ -27,8 +27,8 @@ Shared helper module, not run directly. Provides:
   back to parsing the legacy `item.guid` string.
 - `unique_key(type, ids, title, year)` — `tmdb:603` / `imdb:tt0133093` /
   `tvdb:73244`, else `movie|thematrix|1999`.
-- `normalize_rating(value)` — canonical `G PG PG-13 R NC-17 TV-Y TV-Y7 TV-Y7-FV
-  TV-G TV-PG TV-14 TV-MA`, or `None`. Rejects NR / Not Rated / Unrated / TBD /
+- `normalize_rating(value)` — canonical `G PG PG-13 R NC-17 TV-Y TV-Y7
+  TV-G TV-PG TV-14 TV-MA`, or `None` (`TV-Y7-FV` folds to `TV-Y7`). Rejects NR / Not Rated / Unrated / TBD /
   blank and foreign values such as `gb/15`.
 - `load_json(path, default)` / `save_json(path, obj)` — UTF-8, indent 2.
 

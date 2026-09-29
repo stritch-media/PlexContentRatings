@@ -24,7 +24,8 @@ location on apply.
 ## Rating rules (US-based user)
 
 **TV shows** — always the US TV Parental Guidelines format, applied at the
-show level: `TV-Y`, `TV-Y7`, `TV-Y7-FV`, `TV-G`, `TV-PG`, `TV-14`, `TV-MA`.
+show level: `TV-Y`, `TV-Y7`, `TV-G`, `TV-PG`, `TV-14`, `TV-MA`. Never
+`TV-Y7-FV` — "FV" is a content descriptor; use plain `TV-Y7`.
 
 **Movies** — MPAA (`G`, `PG`, `PG-13`, `R`, `NC-17`) *or* US TV format. Which
 one is decided by this precedence, stop at the first hit:

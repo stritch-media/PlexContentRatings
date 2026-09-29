@@ -10,7 +10,7 @@ streamer would most likely assign.
 | Rating     | Audience              | Typical content ceiling |
 |------------|-----------------------|-------------------------|
 | TV-Y       | All children          | Designed for ages 2–6. Nothing frightening. |
-| TV-Y7      | Ages 7+               | Mild fantasy/comedic violence, may scare under-7s. `TV-Y7-FV` if fantasy violence is more intense/combative (action cartoons). |
+| TV-Y7      | Ages 7+               | Mild fantasy/comedic violence, may scare under-7s. Includes action cartoons listed as `TV-Y7-FV` elsewhere — always write plain `TV-Y7` (FV is a descriptor, not a rating). |
 | TV-G       | General audience      | Little or no violence, no strong language, little or no sexual dialogue. |
 | TV-PG      | Parental guidance     | Some suggestive dialogue (D), infrequent coarse language (L — "damn", "hell", occasional "ass"/"bitch"), some sexual situations (S), moderate violence (V). |
 | TV-14      | Parents strongly cautioned | Intense suggestive dialogue, strong coarse language (frequent "shit", "asshole", rare or bleeped "fuck"), intense sexual situations (implied, non-explicit), intense violence without extended gore. |

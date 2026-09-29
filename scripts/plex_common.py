@@ -117,11 +117,13 @@ def connect(server):
 # --- Ratings -----------------------------------------------------------------
 
 VALID_MPAA = {"G", "PG", "PG-13", "R", "NC-17"}
-VALID_TV = {"TV-Y", "TV-Y7", "TV-Y7-FV", "TV-G", "TV-PG", "TV-14", "TV-MA"}
+VALID_TV = {"TV-Y", "TV-Y7", "TV-G", "TV-PG", "TV-14", "TV-MA"}
 VALID_RATINGS = VALID_MPAA | VALID_TV
 
 # Compact key ("PG-13" -> "PG13") -> canonical form.
 _RATING_LOOKUP = {re.sub(r"[^A-Z0-9]", "", r.upper()): r for r in VALID_RATINGS}
+# "FV" (fantasy violence) is a content descriptor, not a rating: TV-Y7-FV -> TV-Y7.
+_RATING_LOOKUP["TVY7FV"] = "TV-Y7"
 
 
 def normalize_rating(value):
