@@ -1102,5 +1102,127 @@
         "ratingKey": "2686143"
       }
     ]
+  },
+  "tmdb:49797": {
+    "title": "I Saw the Devil",
+    "year": 2010,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Tubi and Shudder list TV-MA (graphic torture, sexual violence, gore, strong language). TMDB's US 'R' is only a Sundance premiere entry; the US release (Magnet) is Unrated.",
+    "decided": "2026-10-08",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "113973"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2706453"
+      }
+    ]
+  },
+  "tmdb:216043": {
+    "title": "The Iceman Confesses: Secrets of a Mafia Hitman",
+    "year": 2001,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Hulu and HBO Max list TV-MA (HBO America Undercover doc; Kuklinski's detailed accounts of murders).",
+    "decided": "2026-10-08",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "114007"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2708707"
+      }
+    ]
+  },
+  "tmdb:17278": {
+    "title": "Mad Monster Party?",
+    "year": 1967,
+    "type": "movie",
+    "rating": "TV-PG",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Netflix lists TV-PG (spooky cartoon monsters, slapstick violence; no language). Common Sense Media 6+, BBFC U.",
+    "decided": "2026-10-08",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "114008"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2708708"
+      }
+    ]
+  },
+  "tmdb:1465986": {
+    "title": "Man Finds Tape",
+    "year": 2025,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Tubi lists TV-MA (found-footage horror; BBFC 15). No MPAA rating, and Apple lists it Unrated.",
+    "decided": "2026-10-08",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "114087"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2713301"
+      }
+    ]
+  },
+  "tmdb:320508": {
+    "title": "There Are Monsters",
+    "year": 2013,
+    "type": "movie",
+    "rating": "R",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated R: f-bombs in dialogue (IMDb Parents Guide reportedly marks profanity and frightening scenes 'Severe'), creepy doppelganger horror with low gore; Japan R15+ and UK 15 agree. PG-13 is the alternative if the language is lighter than reported. No US streamer.",
+    "decided": "2026-10-08",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "113915"
+      }
+    ]
+  },
+  "tmdb:335717": {
+    "title": "Jamie's 20 Minute Meals",
+    "year": 2026,
+    "type": "show",
+    "rating": "TV-G",
+    "source": "estimated",
+    "confidence": "high",
+    "rationale": "Estimated TV-G: real-time Jamie Oliver cooking show (Channel 4 UK, no US release yet); his sibling formats 30 Minute Meals and 15 Minute Meals are TV-G on Roku.",
+    "decided": "2026-10-08",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "TV Shows",
+        "ratingKey": "113980"
+      }
+    ]
   }
 }

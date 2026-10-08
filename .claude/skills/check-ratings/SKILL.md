@@ -47,9 +47,16 @@ For each title with no valid US rating, in this order:
    the AMC+/Shudder page, whose `contentRating` meta tag holds the rating. A
    literal MPAA letter shown by a streamer (e.g. Tubi "R") also counts as
    `streamer`. (Calibration 2026-09-27: two literal streamer ratings were
-   missed this way.)
+   missed this way.) Start by fetching the title's JustWatch / Reelgood
+   **US** page to list every US streamer carrying it, then fetch each
+   listed streamer's own title page. Also run a plain web search for the
+   title + year, which often turns up a Netflix title page that JustWatch
+   omits. (Calibration 2026-10-08: a Netflix TV-PG was missed because the
+   agent only went through a fixed list of streamer sites.)
 2. **Content research** — IMDb Parents Guide, Common Sense Media, Kids-In-Mind,
    reviews, synopsis. Foreign board ratings are strong hints, not mappings.
+   Assess language, violence/gore, sex/nudity and fright **separately**. A
+   low-gore film with repeated f-bombs is still R. (Calibration 2026-10-08.)
 3. Estimate per `reference/rating-guidelines.md`. Movies → MPAA style, TV →
    TV style. Mark `estimated` with confidence `high` / `medium` / `low`.
 

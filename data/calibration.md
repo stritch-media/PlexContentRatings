@@ -127,3 +127,29 @@ streamer ratings (Tubi, AMC+) and labelled 2 literal Tubi MPAA letters as
 Added to the skill: always fetch the Tubi and AMC+/Shudder pages directly,
 and treat a literal MPAA letter on a streamer as `streamer`.
 **Decision: keep Sonnet as default.**
+
+## 2026-10-08 — Sonnet 5 research subagents (6 titles, 2 agents)
+
+Lookup's one "official" hit (I Saw the Devil, TMDB US R) was a Sundance
+premiere entry, not an MPA cert, so it was sent to research too. Orchestrator
+(Opus 5.5) re-fetched every cited streamer page and re-checked all 3 estimates.
+
+| Title | Sonnet said | Check result | Verdict |
+|---|---|---|---|
+| I Saw the Devil | TV-MA, streamer (Tubi/Shudder) | Tubi page shows TV-MA; agent also correctly debunked TMDB's festival "R" | Agree, verified |
+| The Iceman Confesses | TV-MA, streamer (Hulu/HBO Max) | Hulu page shows TVMA | Agree, verified |
+| Man Finds Tape | TV-MA, streamer (Tubi) | Tubi page shows TV-MA | Agree, verified |
+| Mad Monster Party? | G, estimated | **Netflix lists TV-PG.** The agent checked Plex/Apple/Roku/Amazon but not Netflix (or Tubi) | **Corrected** → TV-PG, streamer |
+| There Are Monsters | PG-13, estimated | A review quotes f-bombs in dialogue; the IMDb Parents Guide reportedly marks profanity/violence/fright "Severe" (IMDb 403s fetches, so this is unverified); JP R15+, UK 15. The agent based its rating on gore alone and ignored language | **Corrected** → R, estimated, medium |
+| Jamie's 20 Minute Meals | TV-G, estimated | Sibling formats TV-G on Roku; no US release | Agree, unverified |
+
+**Result:** 4/6 agreed. All 3 streamer pickups were correct, and the TMDB
+festival-rating trap was caught. Two misses: (1) another missed streamer
+listing (Netflix), the same failure as 2026-09-27, because agents work through
+a fixed list of streamer sites instead of finding where the title actually
+streams; (2) one content estimate weighted gore and ignored language. Fix: the
+skill now has agents start from the JustWatch / Reelgood US page to list every
+US streamer carrying the title, then fetch each one, and look at language and
+gore separately when estimating. Orchestrator spot-checks caught both misses.
+**Decision: keep Sonnet as default; if the next run with the new prompt still
+misses a streamer, escalate to opus.**
