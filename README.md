@@ -74,6 +74,23 @@ are logged in `data/calibration.md`. Several of the rules in the skill came
 directly from those misses, for example treating Amazon's "16+" age tier as if
 it were a TV rating, or under rating profanity heavy stand up specials.
 
+## One-time setup: the smart collection
+
+The scripts expect a smart collection named `*NEEDS PROPER RATING*` (with the
+asterisks) in every library you want checked. Plex has no API for creating a
+smart collection with a negative filter, so this is a one-time manual step per
+library, done in Plex Web under the library's Filter menu:
+
+- **Movie libraries:** add one `Content Rating is not` rule for each valid
+  value: `G`, `PG`, `PG-13`, `R`, `NC-17`, `TV-Y`, `TV-Y7`, `TV-G`, `TV-PG`,
+  `TV-14`, `TV-MA`. All rules combined with AND.
+- **TV libraries:** same idea at the show level, with the six TV values only:
+  `TV-Y`, `TV-Y7`, `TV-G`, `TV-PG`, `TV-14`, `TV-MA`.
+- Save the filter as a smart collection named exactly `*NEEDS PROPER RATING*`.
+
+Anything with a blank, `NR`, or foreign rating lands in the collection. Once
+`apply.py` writes a valid rating, the item drops out on its own.
+
 ## Running it
 
 ```
