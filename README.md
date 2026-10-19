@@ -89,9 +89,13 @@ python scripts/apply.py
 gitignored and token values are never printed. Each script resolves paths from
 its own location, so the working directory does not matter.
 
-The research step is driven by the `/check-ratings` skill in Claude Code. The
-three Python scripts work on their own, but without the skill you are doing
-the research by hand and writing `data/decisions.json` yourself.
+The research step is driven by the `/check-ratings` skill in Claude Code.
+There is nothing to install for it. Claude Code picks up `CLAUDE.md` and any
+skill under `.claude/skills/` automatically when started from the repo root,
+so the whole run is: clone, fill in `.env`, open Claude Code in this folder,
+and type `/check-ratings`. The three Python scripts work on their own, but
+without the skill you are doing the research by hand and writing
+`data/decisions.json` yourself.
 
 ## Layout
 
