@@ -53,6 +53,9 @@ For each title with no valid US rating, in this order:
    title + year, which often turns up a Netflix title page that JustWatch
    omits. (Calibration 2026-10-08: a Netflix TV-PG was missed because the
    agent only went through a fixed list of streamer sites.)
+   For PBS / Masterpiece shows, also check the PBS Distribution DVD
+   listing (library catalogs carry its TV rating) when pbs.org shows none;
+   that is an official US TV rating. (Calibration 2026-10-19.)
 2. **Content research** — IMDb Parents Guide, Common Sense Media, Kids-In-Mind,
    reviews, synopsis. Foreign board ratings are strong hints, not mappings.
    Assess language, violence/gore, sex/nudity and fright **separately**. A

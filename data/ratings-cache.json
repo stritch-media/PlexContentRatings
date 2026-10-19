@@ -1224,5 +1224,122 @@
         "ratingKey": "113980"
       }
     ]
+  },
+  "tmdb:1728113": {
+    "title": "Katseye: Wild Hearts",
+    "year": 2026,
+    "type": "movie",
+    "rating": "PG-13",
+    "source": "official-mpaa",
+    "confidence": "high",
+    "rationale": "Official MPAA PG-13 (TMDB US digital cert; Disney+/Hulu listing shows PG-13). KATSEYE concert/behind-the-scenes documentary.",
+    "decided": "2026-10-19",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "114477"
+      }
+    ]
+  },
+  "show|blackclover|": {
+    "title": "Black Clover",
+    "year": null,
+    "type": "show",
+    "rating": "TV-14",
+    "source": "official-tv",
+    "confidence": "high",
+    "rationale": "Official US TV-14 (TMDB US content rating; Crunchyroll/Funimation home-video releases and Rotten Tomatoes list TV-14). Shonen action anime. OMDb's TV-PG is the outlier.",
+    "decided": "2026-10-19",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "TV Shows",
+        "ratingKey": "114493"
+      }
+    ]
+  },
+  "tmdb:286255": {
+    "title": "The Forsytes",
+    "year": 2025,
+    "type": "show",
+    "rating": "TV-14",
+    "source": "official-tv",
+    "confidence": "high",
+    "rationale": "Official US TV-14: PBS Distribution's Masterpiece Season 1 DVD release (2026) is rated TV-14 across multiple library catalog records. Victorian family drama with adultery and marital-rape plot lines; KR 15, ES 12.",
+    "decided": "2026-10-19",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "TV Shows",
+        "ratingKey": "114359"
+      }
+    ]
+  },
+  "tmdb:680593": {
+    "title": "The Dark and the Wicked",
+    "year": 2020,
+    "type": "movie",
+    "rating": "R",
+    "source": "estimated",
+    "confidence": "high",
+    "rationale": "Estimated R: a few f-bombs, strong blood and gore (finger-chopping, hanging, suicide by gunshot, stabbings) and brief nudity per Common Sense Media 16+; BBFC 18, JP R18+, DE 16 agree. No US streamer assigns a literal rating (Apple: Unrated; Prime/Shudder/AMC+: 16+ tier only; not on Tubi).",
+    "decided": "2026-10-19",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "114342"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2727069"
+      }
+    ]
+  },
+  "tmdb:1309373": {
+    "title": "Whispers in the Woods",
+    "year": 2025,
+    "type": "movie",
+    "rating": "PG",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated PG: Vincent Munier nature documentary (Vosges forest; lynx, bears, deer) with a few predator/prey moments; IE PG, FR TP, DE 0, NL AL. No US streamer or distributor found. G is the alternative.",
+    "decided": "2026-10-19",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "114340"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2724792"
+      }
+    ]
+  },
+  "tmdb:1110678": {
+    "title": "Danila Poperechny: FUN/LIFE",
+    "year": 2023,
+    "type": "movie",
+    "rating": "R",
+    "source": "estimated",
+    "confidence": "low",
+    "rationale": "Estimated R (low confidence): Russian-language stand-up special, YouTube-only, no US streamer or rating. Poperechny's specials are known for heavy profanity (mat) and edgy adult humor, so R is the stand-up default; actual language not verified.",
+    "decided": "2026-10-19",
+    "locations_applied": [
+      {
+        "server": "Appbox",
+        "library": "Movies",
+        "ratingKey": "114482"
+      },
+      {
+        "server": "Kyle's Plex Server",
+        "library": "Movies",
+        "ratingKey": "2733953"
+      }
+    ]
   }
 }

@@ -153,3 +153,26 @@ US streamer carrying the title, then fetch each one, and look at language and
 gore separately when estimating. Orchestrator spot-checks caught both misses.
 **Decision: keep Sonnet as default; if the next run with the new prompt still
 misses a streamer, escalate to opus.**
+
+## 2026-10-19 — Sonnet 5 research subagent (4 titles, 1 agent)
+
+Lookup's two official hits (Katseye: Wild Hearts PG-13 via TMDB digital
+cert; Black Clover TV-14 via TMDB US) were verified by the orchestrator
+(Fable 5.1) against the Disney+ listing and US home-video/Rotten Tomatoes
+listings. Both held. All four research results were re-checked.
+
+| Title | Sonnet said | Check result | Verdict |
+|---|---|---|---|
+| The Dark and the Wicked | R, estimated, high | CSM confirms f-bombs, heavy gore, brief nudity; BBFC 18. Shudder/AMC+ pages are JS shells with no readable rating (agent and orchestrator both failed); Prime shows only 16+ tier; not on Tubi | Agree |
+| Whispers in the Woods | PG, estimated, medium | Nature doc, IE PG; no US streamer | Agree, unverified |
+| Danila Poperechny: FUN/LIFE | R, estimated, low | YouTube-only Russian stand-up; no US listing anywhere | Agree, unverified |
+| The Forsytes | TV-14, estimated, medium | **PBS Distribution's Season 1 DVD is rated TV-14** (multiple library catalogs). Same rating, but the agent missed an official source | Agree on rating; source upgraded → official-tv |
+
+**Result:** 4/4 agreed on the rating. No streamer miss this run — the
+JustWatch-first procedure worked (agent correctly identified Shudder/AMC+/
+Prime/Apple as the only carriers and that none shows a literal rating).
+One source miss: PBS home-video ratings are an official US TV source for
+Masterpiece/PBS shows and the agent didn't look for them. Note for the
+skill: for PBS shows, check PBS Distribution DVD listings (library
+catalogs carry the rating) when pbs.org pages show none.
+**Decision: keep Sonnet as default.**
