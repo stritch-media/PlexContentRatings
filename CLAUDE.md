@@ -2,15 +2,15 @@
 
 Not a software product. This is a Claude-driven workflow for filling in missing
 or bogus **content ratings** on two Plex servers, with small Python helper
-scripts to talk to Plex. The user (Kyle) runs `/check-ratings` here; Claude does
+scripts to talk to Plex. The user runs `/check-ratings` here; Claude does
 the research and judgment; the scripts do the reading/writing against Plex.
 
 ## The setup
 
 | Server               | Libraries                          |
 |----------------------|------------------------------------|
-| Appbox               | 4K Movies, Movies, 4K TV Shows, TV Shows |
-| Kyle's Plex Server   | 4K Movies, Movies, 4K TV Shows, TV Shows |
+| Remote               | 4K Movies, Movies, 4K TV Shows, TV Shows |
+| Home                 | 4K Movies, Movies, 4K TV Shows, TV Shows |
 
 Each of the 8 libraries has a **smart collection** named `*NEEDS PROPER RATING*`
 (literal asterisks in the name). It is filter-based, so an item drops out of the
@@ -73,9 +73,8 @@ The skill at `.claude/skills/check-ratings/SKILL.md` is the entry point. Steps:
    written to Plex before approval.
 6. `python scripts/apply.py` writes and **locks** `contentRating` at every
    location, then merges the decisions into `data/ratings-cache.json`.
-7. Commit `data/ratings-cache.json` (+ `calibration.md`) and push to the
-   private GitHub repo (`stritch-media/PlexContentRatings`) so the decision
-   history is backed up.
+7. Commit `data/ratings-cache.json` (+ `calibration.md`) and push to GitHub
+   so the decision history is backed up.
 
 The cache is permanent memory across runs: a title decided once is never
 re-researched. If the user overrides a rating, update the cache entry too.

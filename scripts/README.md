@@ -45,7 +45,7 @@ completes. Exit code is non-zero only if **no** server connected.
 ```json
 {
   "generated": "2026-08-25T18:00:00+00:00",
-  "servers_scanned": ["Appbox", "Kyle's Plex Server"],
+  "servers_scanned": ["Remote", "Home"],
   "items": [
     {"server": "...", "library": "Movies", "ratingKey": "12345",
      "type": "movie", "title": "...", "year": 1999, "current": null,
@@ -110,7 +110,7 @@ aborts and lists the offenders. Exit code is non-zero if any location failed.
       "confidence": "high",
       "rationale": "TMDB US theatrical certification R.",
       "locations": [
-        {"server": "Appbox", "library": "Movies", "ratingKey": "12345"}
+        {"server": "Remote", "library": "Movies", "ratingKey": "12345"}
       ]
     }
   ]
