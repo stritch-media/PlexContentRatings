@@ -1341,5 +1341,139 @@
         "ratingKey": "2733953"
       }
     ]
+  },
+  "tmdb:574284": {
+    "title": "Harpoon",
+    "year": 2019,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Tubi lists TV-MA (verified on the Tubi title page). Canadian horror-comedy; CA 18A, DE 18, KR 19 agree. Pluto TV shows TV-14, likely an edited cut.",
+    "decided": "2026-10-25",
+    "locations_applied": [
+      {
+        "server": "Remote",
+        "library": "Movies",
+        "ratingKey": "114940"
+      },
+      {
+        "server": "Home",
+        "library": "Movies",
+        "ratingKey": "2750063"
+      }
+    ]
+  },
+  "tmdb:448194": {
+    "title": "Pyewacket",
+    "year": 2017,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: AMC+ and Sundance Now both list TV-MA (verified on the AMC+ page). Dark occult horror with a teen lead; GB 15, DE 16, AU M.",
+    "decided": "2026-10-25",
+    "locations_applied": [
+      {
+        "server": "Remote",
+        "library": "Movies",
+        "ratingKey": "114914"
+      },
+      {
+        "server": "Home",
+        "library": "Movies",
+        "ratingKey": "2750061"
+      }
+    ]
+  },
+  "tmdb:11815": {
+    "title": "The Fly",
+    "year": 1958,
+    "type": "movie",
+    "rating": "PG",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated PG: 1958 Fox sci-fi horror; no gore, language or sex, only the fly-head reveal and the hydraulic-press deaths as scares. OMDb 'Approved' (Hays era), GB PG. On Prime Video/fuboTV (age tier only), not on Tubi; no US streamer shows a literal rating.",
+    "decided": "2026-10-25",
+    "locations_applied": [
+      {
+        "server": "Remote",
+        "library": "Movies",
+        "ratingKey": "114943"
+      },
+      {
+        "server": "Home",
+        "library": "Movies",
+        "ratingKey": "2750066"
+      }
+    ]
+  },
+  "tmdb:1492865": {
+    "title": "Steal This Story, Please!",
+    "year": 2026,
+    "type": "movie",
+    "rating": "PG-13",
+    "source": "estimated",
+    "confidence": "low",
+    "rationale": "Estimated PG-13 (low confidence): self-distributed 2026 documentary on Amy Goodman with archival protest/massacre footage and some coarse language (e.g. the Gingrich 'bitch' exchange). Kids First recommends 12-18; theaters list NR; rent/buy only, no streamer or MPA rating.",
+    "decided": "2026-10-25",
+    "locations_applied": [
+      {
+        "server": "Remote",
+        "library": "Movies",
+        "ratingKey": "114704"
+      }
+    ]
+  },
+  "tmdb:259886": {
+    "title": "The War Between the Land and the Sea",
+    "year": 2025,
+    "type": "show",
+    "rating": "TV-14",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated TV-14: BBC Doctor Who spin-off, sci-fi war drama with creature peril, military violence and deaths but little gore and no sexual content; RO 15, RU 16+. Not yet on Disney+ US as of Oct 2026, so no streamer rating exists; parent guides expect TV-14.",
+    "decided": "2026-10-25",
+    "locations_applied": [
+      {
+        "server": "Remote",
+        "library": "TV Shows",
+        "ratingKey": "114666"
+      }
+    ]
+  },
+  "tmdb:328674": {
+    "title": "The Northumbria Mysteries",
+    "year": 2026,
+    "type": "show",
+    "rating": "TV-PG",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated TV-PG: BBC One 2pm daytime crime drama (Robson Green), premiered 23 Oct 2026; pre-watershed slot means off-screen violence and mild language. Banijay holds global rights, no US carrier yet (BritBox expected). TV-14 only if the murders prove graphic.",
+    "decided": "2026-10-25",
+    "locations_applied": [
+      {
+        "server": "Remote",
+        "library": "TV Shows",
+        "ratingKey": "114916"
+      }
+    ]
+  },
+  "tvdb:483333": {
+    "title": "Clodagh: Cooking at Home",
+    "year": 2026,
+    "type": "show",
+    "rating": "TV-G",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated TV-G: ITV1 Saturday-noon cookery show with Clodagh McKenna filmed at her farm (premiered 10 Oct 2026); nothing objectionable. No US carrier found.",
+    "decided": "2026-10-25",
+    "locations_applied": [
+      {
+        "server": "Remote",
+        "library": "TV Shows",
+        "ratingKey": "114919"
+      }
+    ]
   }
 }

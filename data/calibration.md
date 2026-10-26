@@ -176,3 +176,26 @@ Masterpiece/PBS shows and the agent didn't look for them. Note for the
 skill: for PBS shows, check PBS Distribution DVD listings (library
 catalogs carry the rating) when pbs.org pages show none.
 **Decision: keep Sonnet as default.**
+
+## 2026-10-25 — Sonnet 5 research subagents (7 titles, 2 agents: 4 movies / 3 shows)
+
+Lookup found no official US rating for any title. Orchestrator (Fable 5.1)
+re-checked every result.
+
+| Title | Sonnet said | Check result | Verdict |
+|---|---|---|---|
+| Harpoon | TV-MA, streamer (Tubi), medium | Tubi page fetched: TV-MA visible in title metadata. Pluto TV-14 is an edited cut | Agree; confidence raised to high |
+| Pyewacket | TV-MA, streamer (AMC+/Sundance Now), medium | AMC+ page fetched: TV-MA under "Rating" | Agree; confidence raised to high |
+| The Fly (1958) | PG, estimated, medium | JustWatch US: Prime Video / fuboTV subscription only (age tier, no literal rating); not on Tubi; an undated blog's "on Max" claim is stale. Hays-era "Approved", GB PG | Agree |
+| Steal This Story, Please! | PG-13, estimated, low | Kids First recommends 12–18; Film Threat notes a "bitch" exchange; archival protest/massacre footage; NR in theaters, rent/buy only | Agree |
+| The War Between the Land and the Sea | TV-14, estimated, medium | Agent skipped the Disney+ page; orchestrator confirmed the show still has no Disney+ US release as of Oct 2026 (CultBox May 2026, no date since), so no streamer rating exists. TMDB content-ratings page 404s | Agree |
+| The Northumbria Mysteries | TV-PG, estimated, low | BBC One 2pm daytime slot confirmed (pre-watershed); no US distributor yet | Agree; confidence raised to medium on the daytime-slot evidence |
+| Clodagh: Cooking at Home | TV-G, estimated, medium | ITV1 Saturday-noon cookery show | Agree, unverified |
+
+**Result:** 7/7 agreed on the rating; two streamer hits verified. The show
+agent was thin (web search only, 8 tool calls, skipped Disney+/BritBox
+pages it was told to fetch) but its conclusions held because the titles
+simply have no US carrier yet. Movie agent followed the JustWatch-first
+procedure correctly and found both streamer ratings.
+**Decision: keep Sonnet as default.** Watch for the show agent's shortcut
+pattern on a run where a BBC title *is* on a US streamer.
