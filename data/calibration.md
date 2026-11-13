@@ -199,3 +199,28 @@ simply have no US carrier yet. Movie agent followed the JustWatch-first
 procedure correctly and found both streamer ratings.
 **Decision: keep Sonnet as default.** Watch for the show agent's shortcut
 pattern on a run where a BBC title *is* on a US streamer.
+
+## 2026-11-12 — Sonnet 5 research subagents (9 titles, 2 agents: 5 / 4, all movies)
+
+Lookup's one "official" hit (RRR, TMDB US R) was a Netflix digital entry,
+not an MPA cert, so all 9 went to research. Orchestrator (Fable 5.2)
+re-fetched every cited streamer page plus one estimate's key evidence.
+
+| Title | Sonnet said | Check result | Verdict |
+|---|---|---|---|
+| RRR | TV-MA, streamer (Netflix), high | Netflix US page shows literal TV-MA; agent correctly rejected TMDB's "R" | Agree, verified |
+| Be My Cat: A Film for Anne | R, streamer (Tubi), high | Tubi page shows literal R; dir. Adrian Tofei confirmed | Agree, verified |
+| M (1931) | TV-14, streamer (Tubi), medium | Tubi page shows literal TV-14 on "Fritz Lang's M: The English Version" (Lang / Lorre, 1931). English cut of the same film; HBO Max / Criterion show none | Agree, verified |
+| The 12 Dates of Christmas | TV-14, streamer (Hulu via JustWatch), medium | Agent could not read Hulu's page; orchestrator fetched it: literal "TV14" | Agree; confidence raised to high |
+| Hanging by a Wire | PG-13, estimated, medium | Alberta classification confirmed: PG, one sexual expletive, frequent peril to children. Paramount+ NR | Agree |
+| Papa | R, estimated, medium | Not re-fetched; SG M18 / HK IIB / GB 15 consistent | Agree, unverified |
+| Never After Dark | R, estimated, low | Not re-fetched; rent/buy only, thin content info | Agree, unverified |
+| Savage Mountain | PG-13, estimated, low | JustWatch US 404; Sky Original with no US carrier | Agree, unverified |
+| The Match | PG, estimated, low | Not re-fetched; no US carrier | Agree, unverified |
+
+**Result:** 9/9 agreed; all 4 streamer ratings verified on the live pages,
+no missed streamer listing. Both agents followed the JustWatch-first
+procedure and the TMDB "R" trap on RRR was caught. Only gap: the Hulu
+rating was cited from JustWatch because the agent never found Hulu's own
+URL (JustWatch's buy link exposes it as a hulu.com/watch/... URL, which
+fetches fine). **Decision: keep Sonnet as default.**

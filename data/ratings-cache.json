@@ -1475,5 +1475,188 @@
         "ratingKey": "114919"
       }
     ]
+  },
+  "tmdb:579974": {
+    "title": "RRR",
+    "year": 2022,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Netflix US lists TV-MA (graphic whipping, large-scale action violence). No MPA rating exists; TMDB's \"R\" is a Netflix digital entry, not an MPA cert.",
+    "decided": "2026-11-12",
+    "locations_applied": [
+      {
+        "server": "Home",
+        "library": "Movies",
+        "ratingKey": "1768000"
+      }
+    ]
+  },
+  "tmdb:328216": {
+    "title": "Be My Cat: A Film for Anne",
+    "year": 2015,
+    "type": "movie",
+    "rating": "R",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Tubi lists literal R; violent found-footage horror.",
+    "decided": "2026-11-12",
+    "locations_applied": [
+      {
+        "server": "Remote",
+        "library": "Movies",
+        "ratingKey": "115128"
+      },
+      {
+        "server": "Home",
+        "library": "Movies",
+        "ratingKey": "2759260"
+      }
+    ]
+  },
+  "tmdb:832": {
+    "title": "M",
+    "year": 1931,
+    "type": "movie",
+    "rating": "TV-14",
+    "source": "streamer",
+    "confidence": "medium",
+    "rationale": "Streamer: Tubi lists TV-14 for the 1931 Fritz Lang / Peter Lorre film (its English-version cut); child-murder theme, nothing graphic. HBO Max and Criterion show no rating.",
+    "decided": "2026-11-12",
+    "locations_applied": [
+      {
+        "server": "Home",
+        "library": "Movies",
+        "ratingKey": "754456"
+      }
+    ]
+  },
+  "tmdb:1600653": {
+    "title": "The 12 Dates of Christmas",
+    "year": 2026,
+    "type": "movie",
+    "rating": "TV-14",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Hulu original; Hulu's title page lists TV14 (romantic situations, suggestive talk, mild language).",
+    "decided": "2026-11-12",
+    "locations_applied": [
+      {
+        "server": "Remote",
+        "library": "Movies",
+        "ratingKey": "116056"
+      },
+      {
+        "server": "Home",
+        "library": "Movies",
+        "ratingKey": "2789112"
+      }
+    ]
+  },
+  "tmdb:1178574": {
+    "title": "Papa",
+    "year": 2024,
+    "type": "movie",
+    "rating": "R",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated R: brutal on-screen killing of a mother and sister by a teen, a sexual scene, some coarse language; HK IIB, SG M18, GB 15, IE 16 agree. No US streamer carries it.",
+    "decided": "2026-11-12",
+    "locations_applied": [
+      {
+        "server": "Remote",
+        "library": "Movies",
+        "ratingKey": "115941"
+      }
+    ]
+  },
+  "tmdb:1480856": {
+    "title": "Hanging by a Wire",
+    "year": 2026,
+    "type": "movie",
+    "rating": "PG-13",
+    "source": "estimated",
+    "confidence": "medium",
+    "rationale": "Estimated PG-13: rescue documentary with frequent peril to children and one f-word (Alberta PG for coarse language, BR 12). Paramount+ lists NR, Apple Unrated.",
+    "decided": "2026-11-12",
+    "locations_applied": [
+      {
+        "server": "Remote",
+        "library": "Movies",
+        "ratingKey": "115767"
+      },
+      {
+        "server": "Home",
+        "library": "Movies",
+        "ratingKey": "2775271"
+      }
+    ]
+  },
+  "tmdb:1629051": {
+    "title": "Never After Dark",
+    "year": 2026,
+    "type": "movie",
+    "rating": "R",
+    "source": "estimated",
+    "confidence": "low",
+    "rationale": "Estimated R (low confidence): J-horror ghost story with sudden, intense third-act violence per reviews; BBFC 15, KR 15, SG NC16, RU 18+. US release unrated, rent/buy only. PG-13 is the alternative.",
+    "decided": "2026-11-12",
+    "locations_applied": [
+      {
+        "server": "Remote",
+        "library": "Movies",
+        "ratingKey": "115495"
+      }
+    ]
+  },
+  "tmdb:1686178": {
+    "title": "Savage Mountain",
+    "year": 2026,
+    "type": "movie",
+    "rating": "PG-13",
+    "source": "estimated",
+    "confidence": "low",
+    "rationale": "Estimated PG-13 (low confidence): K2 mountaineering doc centered on a porter's death, likely climber profanity; PL 16. Sky Original with no US carrier and no content advisory found. R is the alternative.",
+    "decided": "2026-11-12",
+    "locations_applied": [
+      {
+        "server": "Remote",
+        "library": "4K Movies",
+        "ratingKey": "116052"
+      },
+      {
+        "server": "Home",
+        "library": "4K Movies",
+        "ratingKey": "2789125"
+      },
+      {
+        "server": "Home",
+        "library": "Movies",
+        "ratingKey": "2789126"
+      }
+    ]
+  },
+  "tmdb:1666712": {
+    "title": "The Match",
+    "year": 2026,
+    "type": "movie",
+    "rating": "PG",
+    "source": "estimated",
+    "confidence": "low",
+    "rationale": "Estimated PG (low confidence): 1986 Argentina-England World Cup doc, archival footage and interviews with Falklands War background; CZ U, SE 7, NL 12. No US carrier. PG-13 if the war footage is graphic.",
+    "decided": "2026-11-12",
+    "locations_applied": [
+      {
+        "server": "Remote",
+        "library": "Movies",
+        "ratingKey": "115851"
+      },
+      {
+        "server": "Home",
+        "library": "Movies",
+        "ratingKey": "2782113"
+      }
+    ]
   }
 }
