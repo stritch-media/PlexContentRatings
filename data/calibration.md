@@ -224,3 +224,22 @@ procedure and the TMDB "R" trap on RRR was caught. Only gap: the Hulu
 rating was cited from JustWatch because the agent never found Hulu's own
 URL (JustWatch's buy link exposes it as a hulu.com/watch/... URL, which
 fetches fine). **Decision: keep Sonnet as default.**
+
+## 2026-11-18 — Sonnet 5 research subagent (4 titles, 1 agent, all movies)
+
+Lookup found no official US rating. Orchestrator (Fable 5.2) re-fetched all
+four cited pages.
+
+| Title | Sonnet said | Check result | Verdict |
+|---|---|---|---|
+| Russell Brand: Open Secret | TV-MA, streamer (Netflix), high | Netflix US page shows literal TV-MA | Agree, verified |
+| Russell Brand: Re: Birth | TV-MA, streamer (Netflix), high | Netflix US page shows literal TV-MA | Agree, verified |
+| Joyland (2022) | TV-MA, streamer (Tubi), high | Tubi page shows literal TV-MA; dir. Saim Sadiq confirmed | Agree, verified |
+| Making Marie Antoinette | PG-13, estimated, low | MUBI page shows only a generic "CAUTION" label, no advisory text; agent correctly did not treat it as a rating. No content evidence exists | **Not applied** — user deferred it (see `data/deferred.md`) |
+
+**Result:** 3/3 streamer ratings verified; the agent found each streamer's
+own page via JustWatch links, as the prompt now suggests. The one estimate
+was an inference from the parent film's rating with no content evidence, and
+the user chose to leave the title unrated rather than apply a guess. New
+`data/deferred.md` tracks such titles; the skill now checks it each run.
+**Decision: keep Sonnet as default.**

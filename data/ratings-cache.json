@@ -1658,5 +1658,81 @@
         "ratingKey": "2782113"
       }
     ]
+  },
+  "tmdb:1823907": {
+    "title": "Russell Brand: Open Secret",
+    "year": 2026,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Netflix US lists TV-MA (documentary on sexual-offence allegations and criminal trial).",
+    "decided": "2026-11-18",
+    "locations_applied": [
+      {
+        "server": "Remote",
+        "library": "4K Movies",
+        "ratingKey": "116381"
+      },
+      {
+        "server": "Home",
+        "library": "4K Movies",
+        "ratingKey": "2805191"
+      },
+      {
+        "server": "Home",
+        "library": "Movies",
+        "ratingKey": "2805193"
+      }
+    ]
+  },
+  "tmdb:566674": {
+    "title": "Russell Brand: Re: Birth",
+    "year": 2018,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Netflix US lists TV-MA (stand-up special, strong language and adult themes).",
+    "decided": "2026-11-18",
+    "locations_applied": [
+      {
+        "server": "Remote",
+        "library": "4K Movies",
+        "ratingKey": "116374"
+      },
+      {
+        "server": "Home",
+        "library": "4K Movies",
+        "ratingKey": "2805160"
+      },
+      {
+        "server": "Home",
+        "library": "Movies",
+        "ratingKey": "2805161"
+      }
+    ]
+  },
+  "tmdb:962571": {
+    "title": "Joyland",
+    "year": 2022,
+    "type": "movie",
+    "rating": "TV-MA",
+    "source": "streamer",
+    "confidence": "high",
+    "rationale": "Streamer: Tubi lists TV-MA (sexual content, nudity, mature themes); US theatrical release was unrated, GB 15.",
+    "decided": "2026-11-18",
+    "locations_applied": [
+      {
+        "server": "Remote",
+        "library": "Movies",
+        "ratingKey": "116327"
+      },
+      {
+        "server": "Home",
+        "library": "Movies",
+        "ratingKey": "2802873"
+      }
+    ]
   }
 }

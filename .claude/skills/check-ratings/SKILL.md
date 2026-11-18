@@ -25,6 +25,11 @@ Unique key = first available of `tmdb`, `imdb`, `tvdb` id; fallback
 is reused (still listed in the review table, marked `cached`) unless the
 user asks for a re-check.
 
+Check `data/deferred.md`: titles listed there were deliberately left
+unrated by the user pending better evidence. Re-research them each run, but
+only propose a rating on conclusive evidence (a literal US rating or a real
+content guide); otherwise report them as "still deferred" and write nothing.
+
 ## 3. Lookup
 
 ```
